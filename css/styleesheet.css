@@ -444,7 +444,7 @@ h6 {
     animation-name: toTopAnimation;
     animation-duration: 2s;
     animation-iteration-count: infinite;
-    animation-direction: normal;
+    animation-direction: reverse;
 }
 
 @keyframes toTopAnimation {
@@ -454,6 +454,10 @@ h6 {
 
     50% {
         bottom: 50%;
+    }
+
+    100% {
+        bottom: 0%;
     }
 }
 

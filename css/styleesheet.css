@@ -99,6 +99,11 @@ body {
     z-index: 1000;
     display: flex;
     align-items: flex-start;
+    transition: left 1s;
+}
+
+.slidebar:hover {
+    left: 0px;
 }
 
 .box {
